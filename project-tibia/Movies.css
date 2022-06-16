@@ -1,0 +1,36 @@
+
+
+main{
+    margin-left:30px
+}
+table{
+    margin-left:50px;
+}
+h2 {
+    font-size: xxx-large; margin-top:2px; 
+}
+body{
+    background-color: black;
+}
+tr{
+    background-color:#1C1B1B ; 
+}
+body{
+    color:aliceblue
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#td01{
+    border-radius: 30px 0px 0px 30px;
+}
+#td02{
+    padding-left:2%
+}
+#td03{
+    border-radius: 0px 30px 30px 0px ;padding-left:2%;
+}
+img{
+    border-radius: 30px 0px 0px 30px; width:250px
+}
+
