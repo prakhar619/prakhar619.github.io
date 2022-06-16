@@ -31,3 +31,6 @@ body{
 #imdb{
     color:goldenrod
 }
+a{
+    color:white; text-decoration:none;
+}
