@@ -1,26 +1,29 @@
-#sequence {
-    width:150px ; height : 220px
-}
-#sequence_table {
-    text-align:center ; width : 100%;
-}
-#main_table {
-    width: 100% ; text-align: center; 
-}
-#navtable {
-    width:100%; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: x-large; border-radius: 9px;
-}
-.cell {
-    background-color: gray;padding:1%; 
+body{
+    background-color: black;color:floralwhite;
 }
 header{
-   border-radius: 9px 9px 9px 9px; position:fixed; width:100%; opacity:0.975; background-color: #444241 ;width:99%; 
+    border-radius: 9px 9px 9px 9px; position:fixed; width:99%; opacity:0.975; background-color: #444241 ;width:99%; 
+ }
+ #navtable {
+    width:100%; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: x-large; border-radius: 9px;
+ }
+ .cell {
+    background-color: gray;padding:1%; 
+}
+a{
+    color:white; text-decoration:none;
 }
 main{
     padding-top:140px;
 }
-body{
-    background-color: black;color:floralwhite;
+#main_table {
+    width: 97%; text-align: center; 
+}
+#sequence_table {
+    text-align:center ; width : 99%;
+}
+ #sequence_image {
+    width:150px ; height : 220px
 }
 #sequence_text{
     font-family:Arial, Helvetica, sans-serif;
@@ -30,7 +33,4 @@ body{
 }
 #imdb{
     color:goldenrod
-}
-a{
-    color:white; text-decoration:none;
 }

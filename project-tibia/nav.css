@@ -1,0 +1,13 @@
+header{
+    border-radius: 9px 9px 9px 9px; position:fixed; width:100%; opacity:0.975; background-color: #444241 ;width:99%; 
+ }
+#navtable {
+    margin-left:0px; width:100%; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: x-large; border-radius: 9px;
+ }
+.cell {
+    background-color: gray;padding:1%; 
+}
+ a{
+    color:white; text-decoration: none;
+}
+

@@ -1,25 +1,26 @@
-
-
-table{
-    margin-left:50px;
-}
-h2 {
-    font-size: xxx-large; margin-top:2px; 
-}
 body{
-    background-color: black;
+    background-color: black;color:white
+}
+main{
+    padding-top:5%; ; margin-right: 20px;
+ }
+table{
+    margin-left:20px;
 }
 tr{
     background-color:#1C1B1B ; 
 }
-body{
-    color:white
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
-}
 #td01{
     border-radius: 30px 0px 0px 30px;
+}
+img{
+    border-radius: 30px 0px 0px 30px; width:250px
+}
+h2{
+    font-size: xxx-large; margin-top:2px; 
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #td02{
     padding-left:2%
@@ -27,28 +28,13 @@ p{
 #td03{
     border-radius: 0px 30px 30px 0px ;padding-left:2%;
 }
-img{
-    border-radius: 30px 0px 0px 30px; width:250px
-}
-#navtable {
-   margin-left:0px; width:100%; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: x-large; border-radius: 9px;
-}
-.cell {
-    background-color: gray;padding:1%; 
-}
-header{
-    border-radius: 9px 9px 9px 9px; position:fixed; width:100%; opacity:0.975; background-color: #444241 ;width:99%; 
- }
- main{
-    padding-top:5%; margin-left:30px
- }
- a{
-    color:white; text-decoration: none;
-
-}
 #rotten{
     color:orangered;
 }
 #imdb{
     color:goldenrod
 }
+
+
+
+ 
