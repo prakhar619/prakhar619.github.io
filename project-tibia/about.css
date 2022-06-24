@@ -1,0 +1,16 @@
+body{
+    text-align: center; background-color: black; color:white
+}
+#contact{ 
+    align-items: center;
+    margin: 50px 200px 0px 200px;
+    border: white solid 5px;
+}
+a{color:white; text-decoration: underline white solid;}
+h1{font-family: Georgia, 'Times New Roman', Times, serif;}
+p{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+
+
+

@@ -1,13 +1,30 @@
-header{
-    border-radius: 9px 9px 9px 9px; position:fixed; width:100%; opacity:0.975; background-color: #444241 ;width:99%; 
- }
-#navtable {
-    margin-left:0px; width:100%; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: x-large; border-radius: 9px;
- }
-.cell {
-    background-color: gray;padding:1%; 
+nav{
+    width:100%;
+    position:sticky;
+    padding-bottom:5%;
+    padding-top:2%;
+    top:0px;
+    background-color:#78909c;
+    border-radius: 4px;
 }
- a{
-    color:white; text-decoration: none;
+#navspace{
+    width:0.8%;
 }
-
+a>div{
+    float:left;
+    width:24%;
+    padding-top:1%;
+    padding-bottom:1%;
+    text-align:center;
+    border-radius:5px;
+    background-color:#546e7a;
+    font-size:200%;
+    color:white;
+    text-decoration: none;
+}
+a>div:hover{
+    background-color:#37474f;  
+}
+a{
+     text-decoration:none; color:white
+}

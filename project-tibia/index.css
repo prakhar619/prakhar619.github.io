@@ -1,36 +1,102 @@
 body{
     background-color: black;color:floralwhite;
 }
-header{
-    border-radius: 9px 9px 9px 9px; position:fixed; width:99%; opacity:0.975; background-color: #444241 ;width:99%; 
- }
- #navtable {
-    width:100%; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: x-large; border-radius: 9px;
- }
- .cell {
-    background-color: gray;padding:1%; 
+
+
+
+
+nav{
+    width:100%;
+    position:sticky;
+    padding-bottom:5%;
+    padding-top:1%;
+    top:0px;
+    background-color:#78909c;
+    border-radius: 4px;
+}
+#navspace{
+    width:0.8%;
+}
+a>div{
+    float:left;
+    width:24%;
+    padding-top:1%;
+    padding-bottom:1%;
+    text-align:center;
+    border-radius:5px;
+    background-color:#546e7a;
+    font-size:200%;
+    color:white;
+    text-decoration: none;
+}
+a>div:hover{
+    background-color:#37474f;  
 }
 a{
-    color:white; text-decoration:none;
+     text-decoration:none; color:white
 }
+
+
+
+
+
 main{
-    padding-top:140px;
+    padding-top:1%;
 }
-#main_table {
-    width: 97%; text-align: center; 
+
+#main01{
+    border:10px white; float:right; 
+}
+blockquote{
+    border-left: solid #78909c 10px; padding-left:20px;
 }
 #sequence_table {
-    text-align:center ; width : 99%;
+    text-align:center ; width : 99% ;margin-top:-20px;
 }
- #sequence_image {
+td>img {
     width:150px ; height : 220px
 }
-#sequence_text{
+td>p{
     font-family:Arial, Helvetica, sans-serif;
+}
+#imdbicon{
+    vertical-align:text-top ; width :40px ;
+}
+#rottenicon{
+    vertical-align : text-bottom; width:60px; 
 }
 #rotten{
     color:orangered;
 }
 #imdb{
     color:goldenrod
+}
+
+
+
+
+
+#box-office{
+    width:98%; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:large; background-color: #263238;border-radius:5px;margin-left:.5%;
+}
+#box-office tr{
+    height:75px;
+
+}
+
+
+
+#form{
+    text-align:center
+}
+#form h1{
+    font-size:4vw;
+
+
+}
+#form p,h3{
+    font-size:2vw;
+}
+#form input{
+    font-size:1.5vw;
 }

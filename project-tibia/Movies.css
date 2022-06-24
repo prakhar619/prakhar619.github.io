@@ -4,6 +4,10 @@ body{
 main{
     padding-top:5%; ; margin-right: 20px;
  }
+
+
+
+ 
 table{
     margin-left:20px;
 }
@@ -34,7 +38,9 @@ p{
 #imdb{
     color:goldenrod
 }
-
-
-
- 
+#imdbicon{
+    vertical-align:text-top ; width :40px ; border-radius: 0px;
+}
+#rottenicon{
+    width:70px; vertical-align : text-bottom
+}
