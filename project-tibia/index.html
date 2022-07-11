@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="./index.css">
     <title>MovieMax</title>
 </head>
-<body>
+<body id="bodyy">
     <div >
         <a style="color:rgb(20, 134, 182);font-size:7px" href="./About-us.html" target="_blank"><div style="float:right ;margin-right:2px;background-color:#37474f; ;"><h2 >Contact Us</h2></div></a>
+        <a style="color:rgb(20, 134, 182);font-size:7px" onclick="nightmode()" id="ngtmode" ><div style="float:right ;margin-right:2px;background-color:#37474f; ;"><h2 >Night Mode</h2></div></a>
         <div><h1 style="font-size:50px;margin-left:30px;color:rgb(0, 34, 254)">Moviemax</h1> </div>
     </div>
     <nav>
@@ -167,6 +168,26 @@
             <p><input type="Submit" name="subscribtion-on" value="Submit" /></p>
         </form>
     </div>
+
+
+    <script>
+        let kmode = true;
+       function nightmode()
+       { 
+       if ( kmode )
+       {
+       document.getElementById('bodyy').style.backgroundColor = "white";
+        document.getElementById('bodyy').style.color = "black";
+       kmode = false   ;
+       }
+       else
+       {
+       document.getElementById('bodyy').style.backgroundColor = "black";
+       document.getElementById('bodyy').style.color = "white";
+       kmode = true ; 
+       }
+       }
+   </script>
     </main>
 </body>
 </html>
